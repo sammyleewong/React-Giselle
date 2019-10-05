@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "name": "giselle.webui",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jquery": "~2",
+    "@types/jqueryui": "~1",
+    "@types/react": "~16",
+    "@types/react-dom": "~16"
+  }
+}
