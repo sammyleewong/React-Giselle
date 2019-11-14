@@ -9,7 +9,7 @@
       //"ConnectionString": "server=localhost;port=3306;database=RioPress;userid=riopress;password=pass;License Key=R5T2RArGHjCFyeJHFo8/M+HXZMxGaLcffrF4VHVNsKu7iEcjruAZceTHAXvCT2Okla56D65nSXi76gTgJJxw9O4nh0Z7gzN1nm6VujDYa1Iz6Q5LF5acU+WXmRsU5i9p/59dHdecszAwpsMU55vMjrMSIVcnPW2LVsEaVn+/DvNfjEYe1a/uVDDBa0Hw5INHObOYfXTwGhD5LSzgSLO1gA1+RKRwRl+lj++AmnnHHpcGBLMsVi7yog26qKwPVEeFntms/yVjZSLI0a/tc4is/A==;"
       // SQL Server
       //DESKTOP-92NCKVU\SQLEXPRESS01
-      "ConnectionString": "Server=DESKTOP-92NCKVU\\SQLEXPRESS;Database=Giselle;Integrated Security=True;Connection Timeout=30",
+      "ConnectionString": "Server=DESKTOP-92NCKVU\\SQLEXPRESS01;Database=Giselle;Integrated Security=True;Connection Timeout=30",
       "ProviderName": "System.Data.SqlClient",
       "Type": "MSSQL"
     },
