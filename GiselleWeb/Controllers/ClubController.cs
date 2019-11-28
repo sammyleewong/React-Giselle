@@ -57,7 +57,7 @@ namespace Giselle.Controllers
         [Route("api/Club/GetClubList")]
         public IEnumerable<Club> Details()
         {
-            return objclub.GetClubs();
+            return objclub.GetAllClubs();
         }
 
     }

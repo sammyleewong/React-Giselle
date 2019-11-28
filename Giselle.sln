@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Giselle.WebUI", "Giselle\Giselle.WebUI.csproj", "{58C3DE7A-117F-4C75-A476-49F3F39CEEA2}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Giselle.BAL", "Giselle.BAL\Giselle.BAL.csproj", "{7C5B246B-18B0-4427-99B0-EE0691D3D351}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Giselle.DAL", "Giselle.DAL\Giselle.DAL.csproj", "{FB6A19B5-7209-4CE0-A79F-F2CDC91581C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Giselle.Web", "GiselleWeb\Giselle.Web.csproj", "{2858FF66-CD84-400A-A948-F1641B3C879F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{58C3DE7A-117F-4C75-A476-49F3F39CEEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{58C3DE7A-117F-4C75-A476-49F3F39CEEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{58C3DE7A-117F-4C75-A476-49F3F39CEEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{58C3DE7A-117F-4C75-A476-49F3F39CEEA2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C5B246B-18B0-4427-99B0-EE0691D3D351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7C5B246B-18B0-4427-99B0-EE0691D3D351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C5B246B-18B0-4427-99B0-EE0691D3D351}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{FB6A19B5-7209-4CE0-A79F-F2CDC91581C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB6A19B5-7209-4CE0-A79F-F2CDC91581C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB6A19B5-7209-4CE0-A79F-F2CDC91581C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2858FF66-CD84-400A-A948-F1641B3C879F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2858FF66-CD84-400A-A948-F1641B3C879F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2858FF66-CD84-400A-A948-F1641B3C879F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2858FF66-CD84-400A-A948-F1641B3C879F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -67,7 +67,7 @@ namespace Giselle.DAL.Models
             }
         }
 
-        //To Delete the record of a particular employee    
+        //To Delete the record of a particular club    
         public int DeleteClub(int id)
         {
             try
@@ -84,11 +84,11 @@ namespace Giselle.DAL.Models
         }
 
         ////To Get the list of Countries    
-        //public List<Countries> GetCities()
-        //{
-        //    List<TblCities> lstCity = new List<TblCities>();
-        //    lstCity = (from CityList in db.TblCities select CityList).ToList();
-        //    return lstCity;
-        //}
+        public List<Club> GetClubs()
+        {
+            List<Club> lstClub = new List<Club>();
+            lstClub = (from ClubList in db.Club select ClubList).ToList();
+            return lstClub;
+        }
     }
 }
